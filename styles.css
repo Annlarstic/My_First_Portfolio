@@ -5,6 +5,26 @@ body {
     margin: 0;
 }
 
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li:first-child {
+    margin-left: 0;
+}
+
 main {
     display: flex;
     flex-direction: row;
